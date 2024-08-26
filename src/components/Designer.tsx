@@ -84,7 +84,7 @@ function Designer() {
         }
 
         //Third scenario
-        const isDraggingDesignerElement = active.data?.current?.isDraggingDesignerElement;
+        const isDraggingDesignerElement = active.data?.current?.isDesignerElement;
 
         const draggingDesignerElementOverAnotherDesignerElement = 
           isDrooppingOverDesignerElement && isDraggingDesignerElement;
